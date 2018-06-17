@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	dbdir := flag.String("dbdir", "/root/.bitcoin/chainstate", "utxo or blockindex database dir(default: /root/.bitcoin/chainstate).")
-	prefix := flag.Int("prefix", 67, "please input leveldb key prefix(default: 67[represents utxo]).")
+	dbdir := flag.String("dbdir", "/root/.bitcoin/chainstate", "utxo or blockindex database dir")
+	prefix := flag.Int("prefix", 67, "please input leveldb key prefix")
 	obfuscate := flag.String("obfuscate", "", "leveldb obfuscate key used in utxo database")
 	flag.Parse()
 
