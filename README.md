@@ -5,4 +5,4 @@
 | bitcoin core  | mainnet | 527687       | 51283037                |
 | bitcoin-abc   | mainnet | 534637       | 39922839                |
 
-#### Notice: This repository is outdate! The utxo information can be acquired just using JSON-RPC `gettxoutsetinfo`.
+#### Notice: This repository is redundancy! The utxo information can be acquired just using JSON-RPC `gettxoutsetinfo`.
